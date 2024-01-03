@@ -329,14 +329,13 @@ button:hover {
         justify-content: center; /* Center content vertically */
         height: 50vh; /* Half the height of the viewport */
         padding-top: 0; /* Remove additional padding */
-        margin-top: -50px; /* Adjust the margin-top to bring the logo up */
+        margin-top: -20px; /* Adjust the margin-top to bring the logo up */
       }
     
       .main-logo {
         width: 60%; /* Adjust width as needed */
         margin: 0 auto; /* Center the logo horizontally */
         position: relative;
-        top: -20px; /* Adjust as needed to move the logo up */
       }
   
     button {
@@ -353,8 +352,8 @@ button:hover {
     }
 
     .about-title,
-    .socials-title {
-        width: 90vw; /* Adjust as needed for smaller screens */
+    .subscribe-title {
+        width: 80vw; /* Adjust as needed for smaller screens */
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
     }
   }
