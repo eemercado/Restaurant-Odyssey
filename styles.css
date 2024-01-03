@@ -353,7 +353,7 @@ button:hover {
     }
   
     .logo {
-      height: 40px; /* Smaller logo for small screens */
+      height: 25%; /* Smaller logo for small screens */
     }
   
     nav ul {
