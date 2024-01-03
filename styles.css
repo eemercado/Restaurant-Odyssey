@@ -353,7 +353,7 @@ button:hover {
     }
   
     .logo {
-      height: 25%; /* Smaller logo for small screens */
+      height: 40px; /* Smaller logo for small screens */
     }
   
     nav ul {
@@ -377,7 +377,7 @@ button:hover {
       }
 
     .main-logo {
-      width: 60%; /* Adjust width as needed */
+      width: 25%; /* Adjust width as needed */
       margin-top: 1rem; /* Add top margin to push the logo down a bit */
       margin-bottom: 1rem; /* Add bottom margin for spacing */
     }
