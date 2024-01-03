@@ -238,3 +238,113 @@ h2 {
 
 
 
+
+
+
+
+/* phone stuff */
+  /* This media query targets screens with a maximum height of 700px */
+  @media (max-height: 700px) {
+    .top-bar {
+      margin-bottom: 0; /* Remove bottom margin */
+      padding: 0.5em 1em; /* Adjust top and bottom padding */
+    }
+  
+    .logo, nav ul, .social-icons {
+      margin-bottom: 0; /* Remove bottom margin from logo, nav, and social icons */
+    }
+  
+    nav ul {
+        gap: 2em; /* Increase the gap between navigation items for more space */
+      }
+  
+      .header-content {
+        justify-content: flex-start; /* Align content to the top */
+        height: auto; /* Let the height be dynamic */
+        min-height: 50vh; /* Minimum height to maintain a decent aspect ratio */
+        padding-top: 1rem; /* Add padding to avoid content touching the screen edge */
+      }
+  
+      .main-logo {
+        width: 30%; /* Reduce the width of the main logo */
+        margin-top: 1rem; /* Add top margin to push the logo down a bit */
+        margin-bottom: 1rem; /* Add bottom margin for spacing */
+      }
+  
+    button {
+      padding: 8px 20px; /* Reduce the padding to make button smaller */
+      margin-top: 0; /* Remove space above the button */
+    }
+  
+    /* Ensure the .button-container is also adjusted if it's being used */
+    .button-container {
+      position: static; /* Use default positioning */
+      margin-top: 0; /* Remove space above the button container */
+    }
+  }
+  
+
+
+
+@media (max-width: 768px) {
+    /* This is for screens smaller than 768px, like phones */
+    header {
+      padding: 0.5em 0; /* Reduced padding */
+      height: 100%; /* Let the height be dynamic */
+    }
+  
+    .top-bar {
+      flex-direction: column; /* Stack elements vertically */
+      margin-bottom: 1em; /* Less margin for smaller screens */
+    }
+  
+    .logo {
+      height: 40px; /* Smaller logo for small screens */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack nav items vertically */
+      gap: 0.5em; /* Less gap for small screens */
+    }
+  
+    nav a {
+      font-size: 1em; /* Smaller font size */
+    }
+  
+    .social-icons {
+      margin-top: 1em; /* Add space between nav and social icons */
+    }
+  
+    .header-content {
+        justify-content: flex-start; /* Align content to the top */
+        height: auto; /* Let the height be dynamic */
+        min-height: 50vh; /* Minimum height to maintain a decent aspect ratio */
+        padding-top: 1rem; /* Add padding to avoid content touching the screen edge */
+      }
+
+    .main-logo {
+      width: 30%; /* Adjust width as needed */
+      margin-top: 1rem; /* Add top margin to push the logo down a bit */
+      margin-bottom: 1rem; /* Add bottom margin for spacing */
+    }
+  
+    button {
+      font-size: 1em; /* Smaller font size for button */
+      padding: 10px 20px; /* Adjust padding to make the button smaller */
+      margin-top: 1em; /* Add some space above the button */
+      margin-bottom: 1em; /* Add some space below the button */
+    }
+    
+    /* If .button-container is used */
+    .button-container {
+      position: static; /* Use default positioning */
+      padding: 1em; /* Add padding for tap targets */
+    }
+
+    .about-title,
+    .subscribe-title {
+        width: 80vw; /* Adjust as needed for smaller screens */
+        max-width: none; /* Allow it to scale with the viewport without a maximum limit */
+    }
+  }
+  
