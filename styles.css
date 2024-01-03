@@ -326,22 +326,19 @@ button:hover {
     }
   
     .header-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        padding: 0;
-        position: relative; /* Ensure that position is set to relative */
-    }
-
-    .main-logo {
-        width: 80%; /* Logo width as a percentage of its container */
-        position: absolute; /* Position the logo absolutely within the header-content */
-        top: 50%; /* Position the logo at half the height of its container */
-        transform: translateY(-50%); /* Offset the logo up by half its height to truly center it */
-        margin-top: -50px; /* Adjust this value to move logo higher up */
-    }
+        justify-content: center; /* Center content vertically */
+        height: 50vh; /* Half the height of the viewport */
+        padding-top: 0; /* Remove additional padding */
+        margin-top: -20px; /* Adjust the margin-top to bring the logo up */
+      }
+    
+      .main-logo {
+        width: 60%; /* Adjust width as needed */
+        margin: 0 auto; /* Center the logo horizontally */
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: -100px;
+      }
   
     button {
       font-size: 1em; /* Smaller font size for button */
