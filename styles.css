@@ -360,28 +360,42 @@ button:hover {
     }
   }
 
-  @media (max-height: 700px) {
+  /* This media query targets screens with a maximum height of 700px */
+@media (max-height: 700px) {
+    .top-bar {
+      margin-bottom: 0; /* Remove bottom margin */
+      padding: 0.5em 1em; /* Adjust top and bottom padding */
+    }
+  
+    .logo, nav ul, .social-icons {
+      margin-bottom: 0; /* Remove bottom margin from logo, nav, and social icons */
+    }
+  
+    nav ul {
+        gap: 2em; /* Increase the gap between navigation items for more space */
+      }
+  
     .header-content {
-      justify-content: flex-start; /* Align content to the top */
-      padding-top: 10vh; /* Add padding on top to push the content down */
+      padding-top: 0; /* Remove top padding to pull the content up */
+      margin-top: 0; /* Remove top margin to pull the content up */
     }
   
     .main-logo {
-      width: 50%; /* Decrease logo size */
-      margin-top: 10px; /* Adjust margin to fit the small viewport height */
+      width: 50%; /* Reduce the width of the main logo */
+      margin-top: 0; /* Remove top margin to pull the logo up */
+      margin-bottom: 10px; /* Add a little space below the logo */
     }
   
-    /* Reduce the size of the text or hide elements if necessary */
-    .about-text {
-      font-size: 4vw; /* Adjust font size */
-      display: none; /* or hide text if it doesn't fit */
-    }
-  
-    /* Adjust the button size and position */
     button {
-      padding: 5px 10px;
-      font-size: 4vw;
-      margin-top: 20px; /* Add some space between the text and button */
+      padding: 8px 20px; /* Reduce the padding to make button smaller */
+      margin-top: 0; /* Remove space above the button */
+    }
+  
+    /* Ensure the .button-container is also adjusted if it's being used */
+    .button-container {
+      position: static; /* Use default positioning */
+      margin-top: 0; /* Remove space above the button container */
     }
   }
+  
   
