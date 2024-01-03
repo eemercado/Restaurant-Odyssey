@@ -326,13 +326,18 @@ button:hover {
     }
   
     .header-content {
-      padding-top: 1em; /* Less padding on top */
-    }
-  
-    .main-logo {
-      width: 50%; /* Smaller main logo */
-      margin: 0 auto 1em; /* Center the logo with margin and reset bottom margin */
-    }
+        justify-content: center; /* Center content vertically */
+        height: 50vh; /* Half the height of the viewport */
+        padding-top: 0; /* Remove additional padding */
+        margin-top: -50px; /* Adjust the margin-top to bring the logo up */
+      }
+    
+      .main-logo {
+        width: 60%; /* Adjust width as needed */
+        margin: 0 auto; /* Center the logo horizontally */
+        position: relative;
+        top: -20px; /* Adjust as needed to move the logo up */
+      }
   
     button {
       font-size: 1em; /* Smaller font size for button */
@@ -345,5 +350,11 @@ button:hover {
     .button-container {
       position: static; /* Use default positioning */
       padding: 1em; /* Add padding for tap targets */
+    }
+
+    .about-title,
+    .socials-title {
+        width: 90vw; /* Adjust as needed for smaller screens */
+        max-width: none; /* Allow it to scale with the viewport without a maximum limit */
     }
   }
