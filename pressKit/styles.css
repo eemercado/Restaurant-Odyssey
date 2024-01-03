@@ -399,10 +399,10 @@ h2 {
     }
 
     .about-title,
-    .subscribe-title 
-    .features-title 
-    .overview-title 
-    .description-title 
+    .subscribe-title, 
+    .features-title, 
+    .overview-title, 
+    .description-title,
     .information-title 
     {
         width: 80vw; /* Adjust as needed for smaller screens */
