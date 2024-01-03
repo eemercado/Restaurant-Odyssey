@@ -399,7 +399,12 @@ h2 {
     }
 
     .about-title,
-    .subscribe-title {
+    .subscribe-title 
+    .features-title 
+    .overview-title 
+    .description-title 
+    .information-title 
+    {
         width: 80vw; /* Adjust as needed for smaller screens */
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
     }
