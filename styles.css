@@ -337,7 +337,7 @@ button:hover {
         margin: 0 auto; /* Center the logo horizontally */
         position: relative;
         margin-bottom: 30px;
-        margin-top: -10rem;
+        margin-top: -20%;
       }
   
     button {
