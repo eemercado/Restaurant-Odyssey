@@ -326,16 +326,19 @@ button:hover {
     }
   
     .header-content {
-        height: auto; /* Instead of a fixed height, make it auto */
-        padding: 5vh 0; /* Use viewport height to determine padding */
+        display: flex; /* Use flexbox to align children */
+        flex-direction: column; /* Stack children vertically */
+        align-items: center; /* Center children horizontally */
+        justify-content: center; /* Center children vertically */
+        height: 100vh; /* Take up the full viewport height */
+        padding: 0; /* No padding needed */
         margin-top: 0; /* Reset any previously set margins */
     }
 
     .main-logo {
-        width: 50vw; /* Use viewport width to scale the logo */
+        width: 60%; /* Use percentage to scale the logo based on the container's width */
         max-width: 300px; /* Set a max-width to ensure the logo doesn't get too big */
-        margin-top: 5vh; /* Push the logo down from the top */
-        margin-bottom: 5vh; /* Give some space at the bottom before the button */
+        margin-top: -20px; /* Optional: Adjust if you want to move the logo up a bit */
     }
   
     button {
