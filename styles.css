@@ -359,3 +359,29 @@ button:hover {
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
     }
   }
+
+  @media (max-height: 700px) {
+    .header-content {
+      justify-content: flex-start; /* Align content to the top */
+      padding-top: 10vh; /* Add padding on top to push the content down */
+    }
+  
+    .main-logo {
+      width: 50%; /* Decrease logo size */
+      margin-top: 10px; /* Adjust margin to fit the small viewport height */
+    }
+  
+    /* Reduce the size of the text or hide elements if necessary */
+    .about-text {
+      font-size: 4vw; /* Adjust font size */
+      display: none; /* or hide text if it doesn't fit */
+    }
+  
+    /* Adjust the button size and position */
+    button {
+      padding: 5px 10px;
+      font-size: 4vw;
+      margin-top: 20px; /* Add some space between the text and button */
+    }
+  }
+  
