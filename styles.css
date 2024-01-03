@@ -312,16 +312,18 @@ button:hover {
         gap: 2em; /* Increase the gap between navigation items for more space */
       }
   
-    .header-content {
-      padding-top: 0; /* Remove top padding to pull the content up */
-      margin-top: 0; /* Remove top margin to pull the content up */
-    }
+      .header-content {
+        justify-content: flex-start; /* Align content to the top */
+        height: auto; /* Let the height be dynamic */
+        min-height: 50vh; /* Minimum height to maintain a decent aspect ratio */
+        padding-top: 1rem; /* Add padding to avoid content touching the screen edge */
+      }
   
-    .main-logo {
-      width: 50%; /* Reduce the width of the main logo */
-      margin-top: 0; /* Remove top margin to pull the logo up */
-      margin-bottom: 10px; /* Add a little space below the logo */
-    }
+      .main-logo {
+        width: 50%; /* Reduce the width of the main logo */
+        margin-top: 1rem; /* Add top margin to push the logo down a bit */
+        margin-bottom: 1rem; /* Add bottom margin for spacing */
+      }
   
     button {
       padding: 8px 20px; /* Reduce the padding to make button smaller */
@@ -368,19 +370,17 @@ button:hover {
     }
   
     .header-content {
-        justify-content: center; /* Center content vertically */
-        height: 50vh; /* Half the height of the viewport */
-        padding-top: 0; /* Remove additional padding */
-        margin-top: -20px; /* Adjust the margin-top to bring the logo up */
+        justify-content: flex-start; /* Align content to the top */
+        height: auto; /* Let the height be dynamic */
+        min-height: 50vh; /* Minimum height to maintain a decent aspect ratio */
+        padding-top: 1rem; /* Add padding to avoid content touching the screen edge */
       }
-    
-      .main-logo {
-        width: 60%; /* Adjust width as needed */
-        margin: 0 auto; /* Center the logo horizontally */
-        position: relative;
-        margin-bottom: 30px;
-        margin-top: -60%;
-      }
+
+    .main-logo {
+      width: 60%; /* Adjust width as needed */
+      margin-top: 1rem; /* Add top margin to push the logo down a bit */
+      margin-bottom: 1rem; /* Add bottom margin for spacing */
+    }
   
     button {
       font-size: 1em; /* Smaller font size for button */
