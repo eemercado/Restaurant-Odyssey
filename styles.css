@@ -291,3 +291,59 @@ button:hover {
 
 
 
+
+
+
+
+/* phone stuff */
+@media (max-width: 768px) {
+    /* This is for screens smaller than 768px, like phones */
+    header {
+      padding: 0.5em 0; /* Reduced padding */
+      height: auto; /* Let the height be dynamic */
+    }
+  
+    .top-bar {
+      flex-direction: column; /* Stack elements vertically */
+      margin-bottom: 1em; /* Less margin for smaller screens */
+    }
+  
+    .logo {
+      height: 40px; /* Smaller logo for small screens */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack nav items vertically */
+      gap: 0.5em; /* Less gap for small screens */
+    }
+  
+    nav a {
+      font-size: 1em; /* Smaller font size */
+    }
+  
+    .social-icons {
+      margin-top: 1em; /* Add space between nav and social icons */
+    }
+  
+    .header-content {
+      padding-top: 1em; /* Less padding on top */
+    }
+  
+    .main-logo {
+      width: 50%; /* Smaller main logo */
+      margin: 0 auto 1em; /* Center the logo with margin and reset bottom margin */
+    }
+  
+    button {
+      font-size: 1em; /* Smaller font size for button */
+      padding: 10px 20px; /* Adjust padding to make the button smaller */
+      margin-top: 1em; /* Add some space above the button */
+      margin-bottom: 1em; /* Add some space below the button */
+    }
+    
+    /* If .button-container is used */
+    .button-container {
+      position: static; /* Use default positioning */
+      padding: 1em; /* Add padding for tap targets */
+    }
+  }
