@@ -336,8 +336,7 @@ button:hover {
     }
 
     .main-logo {
-        width: 60%; /* Logo width as a percentage of its container */
-        max-width: 300px; /* Maximum width of logo */
+        width: 80%; /* Logo width as a percentage of its container */
         position: absolute; /* Position the logo absolutely within the header-content */
         top: 50%; /* Position the logo at half the height of its container */
         transform: translateY(-50%); /* Offset the logo up by half its height to truly center it */
