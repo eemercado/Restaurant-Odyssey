@@ -320,7 +320,7 @@ button:hover {
       }
   
       .main-logo {
-        width: 50%; /* Reduce the width of the main logo */
+        width: 25%; /* Reduce the width of the main logo */
         margin-top: 1rem; /* Add top margin to push the logo down a bit */
         margin-bottom: 1rem; /* Add bottom margin for spacing */
       }
