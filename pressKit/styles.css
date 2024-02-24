@@ -365,7 +365,7 @@ h2 {
     }
   
     nav a {
-      font-size: 1em; /* Smaller font size */
+      font-size: 0.5em; /* Smaller font size */
     }
   
     .social-icons {
@@ -405,8 +405,20 @@ h2 {
     .description-title,
     .information-title 
     {
-        width: 80vw; /* Adjust as needed for smaller screens */
+        width: 60vw; /* Adjust as needed for smaller screens */
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
+    }
+
+    .about-section p {
+        font-size: 0.75em; /* Adjust as needed */
+    }
+
+    .subscribe-section p {
+        font-size: 0.75em; /* Adjust as needed */
+    }
+
+    .press-kit-info {
+        font-size: 0.75em; /* Adjust as needed */
     }
   }
   
