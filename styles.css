@@ -362,7 +362,7 @@ button:hover {
     }
   
     nav a {
-      font-size: 12px; /* Smaller font size */
+      font-size: 0.5em; /* Smaller font size */
     }
   
     .social-icons {
@@ -399,6 +399,10 @@ button:hover {
     .subscribe-title {
         width: 80vw; /* Adjust as needed for smaller screens */
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
+    }
+
+    p {
+        font-size: 0.5em; /* Adjust as needed */
     }
   }
   
