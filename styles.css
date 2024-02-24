@@ -401,7 +401,11 @@ button:hover {
         max-width: none; /* Allow it to scale with the viewport without a maximum limit */
     }
 
-    p {
+    .about-section p {
+        font-size: 0.5em; /* Adjust as needed */
+    }
+
+    .subscribe-section p {
         font-size: 0.5em; /* Adjust as needed */
     }
   }
